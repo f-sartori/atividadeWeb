@@ -19,7 +19,7 @@ const calcularIMC = () => {
       classification = 'Obesidade'
     }
     
-    resultado.innerHTML = `IMC: ${imc} (${classification})`
+    resultado.innerHTML = `IMC: ${imc}  kg/m2 (${classification})`
   } else {
     resultado.innerHTML = 'Preencha os campos'
   }
