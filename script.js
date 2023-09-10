@@ -13,7 +13,7 @@ const calcularIMC = () => {
       classification = 'Magreza'
     } else if (imc < 24.9) {
       classification = 'Normal'
-    } else if (imc <= 30) {
+    } else if (imc < 30) {
       classification = 'Sobrepeso'
     } else {
       classification = 'Obesidade'
